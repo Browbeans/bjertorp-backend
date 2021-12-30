@@ -1,0 +1,28 @@
+{
+    "name": "Bjertorp-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./server/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Browbeans/bjertorp-backend.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Browbeans/bjertorp-backend/issues"
+    },
+    "homepage": "https://github.com/Browbeans/bjertorp-backend#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cookie-session": "^2.0.0",
+        "express": "^4.17.2",
+        "mongodb": "^4.2.2",
+        "mongoose": "^6.1.4",
+        "nodemon": "^2.0.15"
+    }
+}
