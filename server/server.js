@@ -5,7 +5,7 @@ const userRouter = require("./users/user.router");
 const postRouter = require("./posts/post.router");
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 6000;
 
 const uri =
     "mongodb+srv://BjertorpAdmin:Freak219@cluster0.whre4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
