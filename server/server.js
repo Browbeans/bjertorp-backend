@@ -35,5 +35,5 @@ app.use(userRouter);
 app.use(postRouter);
 
 app.get("/", (req, res) => {
-    console.log("Server Connectedd");
+    console.log("Server Connected");
 });
