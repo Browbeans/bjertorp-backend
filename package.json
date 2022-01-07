@@ -1,29 +1,19 @@
 {
-    "name": "Bjertorp-backend",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "nodemon ./server/server.js", 
-        "build": "echo 'build script executed'"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Browbeans/bjertorp-backend.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Browbeans/bjertorp-backend/issues"
-    },
-    "homepage": "https://github.com/Browbeans/bjertorp-backend#readme",
-    "dependencies": {
-        "bcrypt": "^5.0.1",
-        "cookie-session": "^2.0.0",
-        "express": "^4.17.2",
-        "mongodb": "^4.2.2",
-        "mongoose": "^6.1.4",
-        "nodemon": "^2.0.15"
-    }
+  "name": "examens",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "bcrypt": "^5.0.1",
+    "cookie-session": "^2.0.0",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15"
+  }
 }
